@@ -1,4 +1,4 @@
-package org.geeksforgeeks.stopwatch;
+package com.example.stopwatch;
 
 import android.app.Activity;
 import android.os.Handler;
@@ -120,12 +120,10 @@ public class StopwatchActivity extends Activity {
 
         // Get the text view.
         final TextView timeView
-                = (TextView)findViewById(
-                R.id.time_view);
+                = (TextView)findViewById(R.id.time_view);
 
         // Creates a new Handler
-        final Handler handler
-                = new Handler();
+        final Handler handler = new Handler();
 
         // Call the post() method,
         // passing in a new Runnable.
